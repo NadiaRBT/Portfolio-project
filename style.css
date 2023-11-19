@@ -7,7 +7,7 @@
 }
 
 body{
-  font-family: var(--Main-font);
+  font-family: 'Nunito', sans-serif;
 }
 .hero{
   background:var(--Primary-color);
@@ -33,6 +33,11 @@ h2{
 }
 em{
   color: var(--Secondary-color);
+}
+.top-5{
+  font-size: 26px;
+  color: var(--Body-color);
+  line-height: 4;
 }
 p{
   font-size: 26px;
@@ -81,6 +86,20 @@ img{
 }
 .hero p{
   font-size: 14px;
+}
+.top-5{
+  font-size:14px;
+  line-height: 2;
+}
+p{
+  font-size: 14px;
+}
+h2{
+  font-size: 33px;
+}
+p{
+  font-size: 14px;
+  margin: 0;
 }
 }
 

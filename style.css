@@ -1,3 +1,41 @@
-body{
-  font-family: 'Nunito', sans-serif;
+:root{
+  --Main-font:font-family: 'Nunito', sans-serif;
+  --Primary-color:#adc178;
+  --Secondary-color:#4f772d;
+  --Tertiary-color:#f0ead2;
+
 }
+
+body{
+  font-family: var(--Main-font);
+}
+.hero{
+  background:var(--Primary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero h2{
+  font-family: var(--Main-font);
+  font-weight: normal;
+  font-size:36px;
+  margin: 0;
+  color:var(--Tertiary-color);
+}
+h1{
+  font-size: 96px;
+  font-weight: bold;
+  color: var(--Tertiary-color);
+}
+.hero p{
+  font-size:24px;
+  line-height: 3;
+  color: var(--Secondary-color);
+}
+.btn-branding{
+  background: var(--Secondary-color);
+  border-radius:4px;
+  color: var(--Tertiary-color);
+  font-size: 18px;
+  line-height:27px ;
+  padding: 15px 30px;
+  }

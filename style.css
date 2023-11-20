@@ -21,6 +21,16 @@ body{
   margin: 0;
   color:var(--Tertiary-color);
 }
+.about-hero{
+  background:var(--Primary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.about-hero p{
+  font-size: 26px;
+  line-height: 30px;
+  color: var(--Body-color);
+}
 h1{
   font-family: var(--Main-font);
   font-size: 96px;
@@ -69,6 +79,26 @@ p{
 img{
   border-radius: 5px;
 }
+.card-deck{
+  margin: 60px;
+}
+.card{
+  background: var(--Tertiary-color);
+  margin-bottom: 25px;
+}
+.card-text {
+  color: var(--Secondary-color);
+  font-size: 20px;
+}
+ h5{
+  font-size: 30px;
+  color: var(--Body-color);
+  line-height: 1;
+}
+
+
+
+
 @media(max-width:900px){
  .project-description{
   padding: 0;
@@ -91,6 +121,25 @@ img{
   font-size:14px;
   line-height: 2;
 }
+.about-hero{
+  padding: 80px 20px;
+}
+.about-hero h1{
+  font-size: 35px;
+}
+.about-hero p{
+  font-size: 14px;
+}
+.card-text {
+  font-size: 10px;
+  font-weight: bold;
+}
+.card-deck{
+  margin: 30px;
+}
+h5{
+  font-size: 22px;
+}
 p{
   font-size: 14px;
 }
@@ -102,4 +151,5 @@ p{
   margin: 0;
 }
 }
+
 

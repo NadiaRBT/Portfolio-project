@@ -65,17 +65,17 @@ p{
   background: var(--Secondary-color);
   border-radius:4px;
   color: var(--Tertiary-color);
-  font-size: 18px;
+  font-size: 15px;
   line-height:27px ;
-  padding: 15px 30px;
+  padding: 12px 20px;
   }
 .btn-branding-outline{
   color: #4f772d;
   border: 1px solid var(--Secondary-color);
   border-radius:4px;
-  font-size: 18px;
+  font-size: 15px;
   line-height:27px ;
-  padding: 15px 30px;
+  padding: 12px 20px;
   }
 img{
   border-radius: 5px;
@@ -96,6 +96,39 @@ img{
   color: var(--Body-color);
   line-height: 1;
 }
+.contact-page{
+  background-color: var(--Tertiary-color);
+  padding: 160px 20px;
+}
+.logo{
+  max-height:150px;
+}
+nav{
+  padding: 20px 0;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 150px;
+  font-size: 20px;
+  margin-left:15px;
+}
+nav a{
+ text-decoration: none;
+ color:var(--Secondary-color);
+ transition:all 100ms ease-in-out
+}
+nav a:hover{
+  color:var(--Primary-color);
+}
+nav li.active a{
+  color: var(--Body-color);
+}
+
 
 
 
@@ -124,6 +157,9 @@ img{
 .about-hero{
   padding: 80px 20px;
 }
+.contact-page{
+  padding: 80px 20px;
+}
 .about-hero h1{
   font-size: 35px;
 }
@@ -150,6 +186,12 @@ h2{
 p{
   font-size: 14px;
   margin: 0;
+}
+nav li{
+margin: 8px;
+}
+nav a{
+  font-size:14px ;
 }
 }
 

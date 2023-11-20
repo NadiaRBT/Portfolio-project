@@ -96,9 +96,6 @@ img{
   color: var(--Body-color);
   line-height: 1;
 }
-.contact-hero{
-  background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);
-}
 
 
 
@@ -140,6 +137,7 @@ img{
 .card-deck{
   margin: 30px;
 }
+
 h5{
   font-size: 22px;
 }

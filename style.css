@@ -9,6 +9,7 @@
 body{
   font-family: 'Nunito', sans-serif;
 }
+
 .hero{
   background:var(--Primary-color);
   text-align: center;
@@ -86,7 +87,7 @@ img{
   background: var(--Tertiary-color);
   margin-bottom: 25px;
 }
-.card-text {
+.card-text p{
   color: var(--Secondary-color);
   font-size: 20px;
 }
@@ -95,7 +96,9 @@ img{
   color: var(--Body-color);
   line-height: 1;
 }
-
+.contact-hero{
+  background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);
+}
 
 
 
